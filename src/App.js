@@ -45,9 +45,8 @@ const App = () => {
   }
 
   return (
-    <>
   <div>
-    <Router basename="/E-commerce">
+    <Router>
       <Header cartItems={cartItems} />
       <AppRoutes
         cartItems={cartItems}
@@ -57,8 +56,7 @@ const App = () => {
       />
     </Router>
   </div>
-    </>
-  );
+);
 
 }
 
