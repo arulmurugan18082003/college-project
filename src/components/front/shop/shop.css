@@ -1,0 +1,153 @@
+
+.shop-text{
+    padding: 120px;
+    font-size:20px;
+}
+.shop-container{
+    margin-top: -250px;
+    background: #f5e7c1;
+    padding: 30px 30px 0 50px;
+    width: 100%;
+}
+.s{
+    margin: 110px 0 0 50px;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background: #f5e7c1;
+    padding: 0 0 0 30px;
+}
+.shop-button{
+    border: none;
+    margin: 0 0 0 10px;
+    background: #f5e7c1;
+    font-size: 25px;
+    
+}
+.shop-form{
+    margin: 110px 10px 0 50px;
+}
+.shop-form select {
+    padding: 0 0 0 20px;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    background: #f5e7c1;
+    border: 1px solid gray;
+}
+.shop-form select option{
+    background: #fff;
+}
+.shop-overalltext{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.shop-product{
+    position: relative;
+    z-index: 1;
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.imgbox{
+    margin: 20px auto;
+    margin-left: 20px;
+
+}
+.product-image{
+    width: 80%;
+    height: auto;
+}
+.box{
+    margin-top: 30px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 350px;
+    height: 600px;
+    overflow: hidden;
+}
+.details{
+    padding: 20px 0 0 30px;
+    text-align: justify;
+}
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.details-1{
+    font-size: large;
+    font-weight: 700;
+}
+.details-2{
+    font-size: 35px;
+}
+.details-3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.addtocart{
+    margin-left: 80px;
+    border: 1px solid #fff;
+    border-radius:30px;
+    height: 60px;
+    width: 130px;
+    background: #e84242;
+    color: #fff;
+    font-weight: 700;
+}
+.footer{
+    position: relative;
+    z-index: -1;
+    margin-top:100px;
+}
+
+@media (max-width:767px){
+.shop-container{
+   margin-top:-380px;
+   height:auto;
+}
+.shop-overalltext{
+    margin-top: -50px;
+    margin-left:-80px;
+
+}
+.shop-text{
+    font-size:1rem;
+    margin-left: -60px;
+    margin-bottom: -150px;
+}   
+.shop-form select{
+    margin-top:0px;
+    width:400px;
+}
+.s{
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+.box{
+    margin-bottom: 50px;
+}
+.shop-product{
+    background: #f5e7c1;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom:50px;
+}
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,200 @@
+.bg-image{
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height: 620px;
+}
+.banner-text{
+    text-align: center;
+    padding-top: 150px;
+}
+.banner-text-1{
+    font-weight:700;
+    font-family:"Harrington";
+    color: white;
+    font-size: 7rem;
+}
+.banner-text-2{
+    font-family:"Harrington";
+    font-weight: 700;
+    color: white;
+    font-size:2rem;
+}
+.wave-image{
+    width: 100%;
+    margin-top:155px;
+}
+.banner-content{
+    text-align: center;
+    padding-top: 50px;
+    font-family:"Harrington";
+    font-weight: 700;
+    color: white;
+    font-size:5rem;
+}
+.banner-content-card{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.card-1{
+    background:#fff;
+    border-radius: 40px;
+    width: 280px;
+    height: 290px;
+}
+.card-1-text{
+    font-size: 1.5rem;
+    color:#e84242;
+    font-weight: 700;
+}
+.card-1-p{
+    color: black;
+    padding-top:0px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.red-wave{
+    width: 100%;
+    margin-top:0px;
+}
+.banner-content-2{
+    margin-top: 50px;
+    background-image:url(https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2021/02/background_06-scaled-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.banner-content-2-text{
+    font-size: 20rem;
+    font-family:"Harrington";
+    font-weight:bold;
+    text-align: center;
+    color: #e84242;
+    position: relative;
+    z-index: 1;
+}
+.banner-content-cover{
+    margin-top: -150px;
+    position: relative;
+    z-index: 2;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 40px;
+    
+}
+.banner-content-cover-img{
+    margin: 20px;
+    width: 150%;
+    height: auto;
+    border-radius: 30px;
+}
+.banner-content-cover-text{
+    font-size:7rem;
+    color: #e84242;
+    font-family:"Harrington";
+    font-weight:bold;
+    padding-left:300px;
+    line-height: 90px;
+    padding-top:150px;
+    text-align: justify;
+}
+.banner-content-cover-inner-conetnt{
+   margin-top: 100px;
+   justify-content: end;
+
+}
+.inner-text1{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight:600;
+}
+.inner-text2{
+    font-size: 1rem;
+}
+.stay{
+    position: relative;
+    top: 120px;
+    margin-left:300px;
+   
+}
+.wave{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    top: 70px;
+}
+.foot{
+    margin-top:-750px;
+}
+
+
+/*=======================responsive=============================================*/
+@media (max-width:767px){
+    .bg-image{
+        width: 100%;
+        height:400px;
+    }
+    .banner-text-1{
+        font-size:3rem;
+    }
+    .banner-text-2{
+        font-size:1.8rem;
+    }
+    .wave-image{
+        margin-top:43px;
+        width: 100%;
+        height: auto;
+    }
+    .banner-content{
+        font-size: 2.5rem;
+    }
+    .banner-content-card{
+        justify-content: center;
+        gap:20px;
+    }
+    
+    .icon-1{
+        margin-top:30px;
+    }
+    .card-1-text{
+        font-size:1.2rem;
+    }
+    .card-1-p{
+        font-size:1.3rem;
+    }
+    .red-wave{
+       margin-top:-10px; 
+    }
+    .banner-content-2-text{
+        padding-top: 30px;
+        font-size:6rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    .banner-content-cover{
+       margin-top: 100px;
+        
+    }   
+    .banner-content-cover-img{
+        width:80%;
+    }
+    .banner-content-cover-text{
+        line-height: 50px;
+        text-align:center;
+        font-size:3.5rem;
+        padding-left:0px;
+    }
+    .stayhome{
+        margin-left:-200px;
+    }
+}
